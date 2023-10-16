@@ -25,8 +25,8 @@ public class Program {
 
         System.out.println(hashMap);
 
-        for (HashMap.Entity entuty : hashMap) {
-            System.out.printf("%s - %s", entuty.key, entuty.value);
+        for (HashMap.Entity entity : hashMap) {
+            System.out.printf("%s - %s\n", entity.key, entity.value);
         }
     }
 
